@@ -1,6 +1,7 @@
 document.addEventListener(
   "DOMContentLoaded",
   function(event){
-    alert("This page is loaded in the script ran!");
+    var message = document.getElementById('message');
+    message.innerText = "THe script ran!";
   }
 );
